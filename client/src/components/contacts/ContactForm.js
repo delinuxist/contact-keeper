@@ -47,6 +47,7 @@ const ContactForm = () => {
       phone: "",
       type: "Personal",
     });
+    clearCurrent();
   };
 
   const clearAll = () => {
